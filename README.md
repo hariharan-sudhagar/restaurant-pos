@@ -100,7 +100,7 @@ php artisan serve
 ```
 
 **🔗 Live Backend:** [http://13.49.224.75/](http://13.49.224.75/)
-**🔗 Live Frontend:** [](https://my-new-pos.netlify.app/)
+**🔗 Live Frontend:** [https://my-new-pos.netlify.app/](https://my-new-pos.netlify.app/)
 
 ### 2️⃣ React Web Dashboard Setup
 
