@@ -8,6 +8,9 @@ use App\Http\Controllers\OrderController;
 Route::get('/menu', [MenuController::class, 'index']);
 Route::post('/menu', [MenuController::class, 'store']); // optional
 Route::post('/menu/seed', [MenuController::class, 'seedMenu']); // ✅ auto-seed
+Route::post('/menu', [MenuController::class, 'store']);      // Add new menu item
+Route::patch('/menu/{id}', [MenuController::class, 'update']); // Update menu item
+Route::delete('/menu/{id}', [MenuController::class, 'destroy']); // Delete menu item
 
 // Order Routes
 Route::get('/orders', [OrderController::class, 'index']);

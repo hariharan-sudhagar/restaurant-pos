@@ -7,14 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class MenuItem extends Model
 {
     protected $fillable = [
-        'order_id',
-        'menu_item_id',
-        'quantity',
+        'name',
+        'description',
         'price',
+        'image_url',
     ];
-
-    public function menuItem()
-    {
-        return $this->belongsTo(MenuItem::class);
-    }
 }
